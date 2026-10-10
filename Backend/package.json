@@ -4,14 +4,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "admin": "nodemon seedAdmin.js"
+    "start": "node app.js",
+    "admin": "node seedAdmin.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "body-parser": "^2.3.0",
     "connect-mongodb-session": "^5.0.0",
     "cors": "^2.8.6",
     "express": "^5.2.1",
